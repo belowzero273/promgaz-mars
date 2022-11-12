@@ -81,4 +81,4 @@ I haven't implemented everything yet, so stay tuned.
 - <a href="https://www.flaticon.com/free-icons/planet" title="planet icons">Planet icons created by Freepik - Flaticon</a>
 - translation/edition by @katpolukat 
 
-![My Image](../public/img/mars.jpg)
+![My Image](/public/img/mars.jpg)
