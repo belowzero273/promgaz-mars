@@ -67,11 +67,11 @@ I think it should also work on Windows Server, but it will take you some time fi
 
 ## Getting started
 - By default this app listens to port 3000, so just run http://127.0.0.1:3000. There are no set user accounts and you'll have to register.
-![Login](/public/img/login.jpg)
+![Login](/public/img/github/login.jpg)
 - Then login and startd hacking/teaching/learning/whatever you do
-![Challenge](/public/img/challenge.jpg)
+![Challenge](/public/img/github/challenge.jpg)
 - If you host this app in your class, you can use http://127.0.0.1:3000/scoreboard to track you students progress.
-![Scoreboard](/public/img/scoreboard.jpg)
+![Scoreboard](/public/img/github/scoreboard.jpg)
 
 - - -
 
