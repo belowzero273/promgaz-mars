@@ -1,0 +1,68 @@
+<%- include('partials/main_header'); -%>
+  <%- include('partials/main_menu'); -%>
+    <h1><%= lang.searchbyid.header_01 %></h1>
+    <p class="paragraph-text"><%= lang.searchbyid.header_text_01 %></p>
+
+
+    <form  method="get" action="/searchbyid">
+      <div class="challenge-form">
+      <div class="input-group">
+
+        <input type="text" class="form-control rounded" name="id" placeholder="<%= lang.searchbyid.search_placeholer %>"
+          name="phrase" aria-describedby="search-addon">
+
+        <button type="submit" name="Submit" id="send" name="send" type="button" class="btn btn-primary default-btn"><%= lang.searchbyid.search_button %></button>
+      </div>
+    </div>
+    </form>
+
+    <% if (result=="valid" ) { %>
+
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col"><%= lang.searchbyid.table_id %></th>
+            <th scope="col"><%= lang.searchbyid.table_name %></th>
+            <th scope="col"><%= lang.searchbyid.table_avatar %></th>
+          </tr>
+        </thead>
+        <tbody>
+          <% queryResults.forEach(function(id){ %>
+            <tr>
+              <th scope="row"><%- id.id %></th>
+              <td><%- id.name %></td>
+              <td><%- id.profilepicture %></td>
+            </tr>
+            <% }) %>
+        </tbody>
+      </table>    
+      <%} else if (result=="hacked" ) { %>
+
+        <div class="got-access"><%= lang.searchbyid.message_hacked %><br /></div>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col"><%= lang.searchbyid.table_id %></th>
+              <th scope="col"><%= lang.searchbyid.table_name %></th>
+              <th scope="col"><%= lang.searchbyid.table_avatar %></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% queryResults.forEach(function(id){ %>
+              <tr>
+                <th scope="row"><%- id.id %></th>
+                <td><%- id.name %></td>
+                <td><%- id.profilepicture %></td>
+              </tr>
+              <% }) %>
+          </tbody>
+        </table>   
+        <hr>
+        <h2><%= lang.searchbyid.header_02 %></h2>
+        <p class="paragraph-text"><%= lang.searchbyid.header_text_02 %></p>
+        <% } else if (result=="" ) { %>
+
+          <% } %>
+          <%- include('partials/main_footer'); -%>
+
+

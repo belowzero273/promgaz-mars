@@ -1,0 +1,35 @@
+<%- include('partials/main_header'); -%>
+  <%- include('partials/main_menu'); -%>
+    <h1><%= lang.language.header_01 %></h1>
+    <p class="paragraph-text"><%= lang.language.header_text_01 %> </p>
+
+    <form action="/language" method="get">
+      <div class="challenge-form">
+      <div class="input-group">
+      <select name="language" class="form-select">
+        <option selected><%= lang.language.header_01 %></option>
+        <option value="<%= lang.language.lang_form_01 %>"><%= lang.language.lang_form_01 %></option>
+        <option value="<%= lang.language.lang_form_02 %>"><%= lang.language.lang_form_02 %></option>
+        <option value="<%= lang.language.lang_form_03 %>"><%= lang.language.lang_form_03 %></option>
+        <option id="selectedLanguage" value=""></option>
+      </select>
+      <button type="submit" class="btn btn-primary btn-sm default-btn "> <%= lang.language.lang_form_btn %></button>
+    </form>
+  </div>
+  </div>
+    <script>
+      var lang = document.URL.split("language?language=")[1];
+      document.getElementById("selectedLanguage").innerHTML = eval(lang);
+    </script>
+
+
+    <% if (result=="valid" ) { %>
+
+      <%} else if (result=="hacked" ) { %>
+
+        <div class="got-access"><%= lang.language.message_success %></div>
+        <hr>
+        <h2><%= lang.language.header_02 %></h2>
+        <p class="paragraph-text"><%= lang.language.header_text_02 %></p>
+        <% } %>
+          <%- include('partials/main_footer'); -%>

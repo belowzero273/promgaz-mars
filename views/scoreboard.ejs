@@ -1,0 +1,101 @@
+<%- include('partials/main_header'); -%>
+  <%- include('partials/main_menu'); -%>
+    <div class="col-lg-12">
+      <table class="table ">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">User</th>
+            <th class="scoreboard-header" scope="col">OS Command injection</th>
+            <th class="scoreboard-header" scope="col">Brute force</th>
+            <th class="scoreboard-header" scope="col">Local File Inclusion (LFI)</th>
+            <th class="scoreboard-header" scope="col">File upload</th>
+            <th class="scoreboard-header" scope="col">SQL Injection</th>
+            <th class="scoreboard-header" scope="col">DOM XSS</th>
+            <th class="scoreboard-header" scope="col">Reflected XSS</th>
+            <th class="scoreboard-header" scope="col">Stored XSS</th>
+            <th class="scoreboard-header" scope="col">Client side security</th>
+            <th class="scoreboard-header" scope="col">Tamper data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% users.forEach(function(users){ %>
+            <tr>
+              <td>
+                <%- users.email %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.os_command_injection==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.brute_force==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.local_files_inclusion==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.file_upload_tamper==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.sql_injection==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.dom_xss_injection==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.reflectied_xss_injection==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.stored_xss_injection==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.client_side_security==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+              <td class="scoreboard-items">
+                <% if (users.web_parameter_tamper==false) { %>
+                  &#9940;
+                  <%} else {%>
+                    &#9989;
+                    <% } %>
+              </td>
+            </tr>
+            <% }) %>
+        </tbody>
+      </table>
+    </div>
+    <%- include('partials/main_footer'); -%>

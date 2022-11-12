@@ -1,0 +1,66 @@
+<%- include('partials/main_header'); -%>
+  <%- include('partials/main_menu'); -%>
+
+    <h1>
+      <%= lang.account.header_01 %>
+    </h1>
+    <p class="paragraph-text">
+      <%= lang.account.header_text_01 %>
+    </p>
+    <form method="post" action="/account">
+      <div class="challenge-form login-form">
+        <h4>
+          <%= lang.account.header_02 %>
+        </h4>
+        <br>
+        <div class="row mb-3 ">
+          <label class="col-sm-2 col-form-label">
+            <h5><%= lang.account.form_username %></h5>
+          </label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="username" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label">
+            <h5><%= lang.account.form_password %></h5> 
+          </label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" name="password" />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary default-btn float-right">
+          <%= lang.account.form_button %>
+        </button>
+      </div>
+    </form>
+
+
+    <% if (result=="valid" ) { %>
+      <div class="got-access">
+        <%= lang.account.message_success %><br />
+      </div>
+      <div>
+        <% queryResult.forEach(function(id){ %>
+      <img class="img-thumbnail" src=<%= lang.account.avatar %><%- id.profilepicture %>><br>
+      <p class="paragraph-text"><%= lang.account.username %><%- id.name %></p>
+      <p class="paragraph-text"><%= lang.account.password %><%- id.password %></p><br>
+      </div>
+               <% }) %>
+      </table>
+
+      <hr>
+      <h2>
+        <%= lang.account.header_03 %>
+      </h2>
+      <p class="paragraph-text">
+        <%= lang.account.header_text_03 %>
+      </p>
+      <%} else if (result=="invalid" ) { %>
+        <div class="no-access">
+          <%= lang.account.message_fail %><br />
+        </div>
+        <%} else if (result=="" ) { %>
+          <% } %>
+
+            <%- include('partials/main_footer'); -%>

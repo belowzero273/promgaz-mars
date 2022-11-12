@@ -1,0 +1,41 @@
+<%- include('partials/main_header'); -%> <%- include('partials/main_menu'); -%>
+
+<h1><%= lang.chat.header_01 %></h1>
+<p class="paragraph-text"><%= lang.chat.header_text_01 %></p>
+
+<form name="XSS" action="/chat" method="get">
+  <div class="challenge-form">
+    <div class="input-group">
+      <input
+        type="text"
+        name="name"
+        class="form-control rounded"
+        placeholder="<%= lang.chat.chat_placeholder %>"
+        name="name"
+        aria-describedby="search-addon"
+      />
+      <button
+        type="submit"
+        name="Submit"
+        id="send"
+        name="send"
+        type="button"
+        class="btn btn-primary default-btn"
+      >
+        <%= lang.chat.chat_button %>
+      </button>
+    </div>
+  </div>
+</form>
+
+<% if (!name) { %> 
+  
+  <%} else if (result=="valid") { %>
+<div class="no-access"><%= lang.chat.message_ok %>, <%- name %><br /></div>
+    <% } else if (result=="hacked") { %>
+      <div class="got-access"><%= lang.chat.message_hacked %><%- name %><br /></div>   
+<hr />
+<h2><%= lang.chat.header_02 %></h2>
+<p class="paragraph-text"><%= lang.chat.header_text_02 %></p>
+
+<% } %> <%- include('partials/main_footer'); -%>

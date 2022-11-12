@@ -1,0 +1,57 @@
+<%- include('partials/main_header'); -%>
+    <%- include('partials/main_menu'); -%>
+
+
+        <h1><%= lang.adminaccess.header_01 %></h1>
+        <p class="paragraph-text"><%= lang.adminaccess.header_text_01 %></p>
+        <% if (access) { %>
+            <h2><%= lang.adminaccess.header_02 %></h2>
+
+                <form>
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option selected><%= lang.adminaccess.interface_00.item_01 %></option>
+                        <option value="1"><%= lang.adminaccess.interface_00.item_02 %></option>
+                        <option value="2"><%= lang.adminaccess.interface_00.item_03 %></option>
+                        <option value="3"><%= lang.adminaccess.interface_00.item_04 %></option>
+                    </select>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        <%= lang.adminaccess.interface_01 %>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        <%= lang.adminaccess.interface_02 %>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        <%= lang.adminaccess.interface_03 %>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        <%= lang.adminaccess.interface_04 %>
+                    </label>
+                </div>
+
+                <label for="customRange1" class="form-label"><%= lang.adminaccess.interface_05 %></label>
+                <input type="range" class="form-range" id="customRange1">
+            </form>
+            <div class="got-access"><%= lang.adminaccess.message_success %></div>
+            <hr>
+            <h2><%= lang.adminaccess.header_03 %></h2>
+            <p><%= lang.adminaccess.header_text_03 %></p>
+
+
+            <% } else{ %>
+                <div class="no-access"><%= lang.adminaccess.message_fail %></div>
+                <% } %>
+                    <%- include('partials/main_footer'); -%>

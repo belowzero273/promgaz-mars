@@ -1,0 +1,44 @@
+<%- include('partials/main_header'); -%> <%- include('partials/main_menu'); -%>
+
+<h1>
+  <%= lang.resume.header_01 %>
+</h1>
+<p class="paragraph-text">
+  <%= lang.resume.header_text_01 %>
+</p>
+
+
+<div class="challenge-form">
+
+<form method="post" action="" enctype="multipart/form-data">
+  <div class="input-group">
+    <input class="form-control" type="file" name="file" id="formFile" /><br />
+    <button class="btn btn-primary default-btn" type="submit">Отправить резюме</button>
+  </div>
+</form>
+</div>
+
+<%- result %>
+
+<% if (result=="") { %> <% } else if (result=="hacked") { %>
+<div class="got-access"><%= lang.resume.message_hacked %></div>
+<p class="paragraph-text"><%= lang.resume.link %> ../upload/<%= file %></p>
+<hr>
+<h2>
+  <%= lang.resume.header_02 %>
+</h2>
+<p class="paragraph-text">
+  <%= lang.resume.header_text_02 %>
+</p>
+
+<% } else if (result=="success") { %>
+  <div class="got-access"><%= lang.resume.message_success %></div>
+  <p class="paragraph-text"><%= lang.resume.link %> ../upload/<%= file %></p>
+
+<% } else if (result=="noallowed") { %>
+<div class="no-access"><%= lang.resume.message_fail %></div>
+
+<% } else if (result=="no-resume") { %>
+<div class="no-access"><%= lang.resume.message_no_resume %></div>
+
+<% } %> <%- include('partials/main_footer'); -%>

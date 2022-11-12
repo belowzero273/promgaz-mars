@@ -1,0 +1,341 @@
+{
+    "ru": {
+        "main": {
+            "title": "Главная страница",
+            "header_01": "Добро пожаловать на Марс!",
+            "header_text_01": "Сегодня ООО «Газпром добыча Марс» — динамично развивающееся газотранспортное предприятие, стратегия которого направлена на обеспечение энергетической стабильности Солнечной системы, а также четкое выполнение контрактных обязательств компании по поставкам газа на экспорт. Ежегодно компания транспортирует свыше 150 млрд кубометров природного газа. Поставки топлива осуществляются с высокой степенью надежности в соответствии с контрактными условиями. В нашу зону ответственности входят более 12 тыс. км газопроводов, 33 компрессорных цеха со 197 газоперекачивающими агрегатами суммарной мощностью 1883 МВт, 252 газораспределительные станции, объекты тепло-, энерго- и водоснабжения, связи, метрологии, автоматики. В настоящее время в компании работает более 1337 сотрудников.",
+            "header_02": "Внимание!",
+            "header_text_02": "Мы недавно провели аудит нашего сайта, и аудиторы обнаружили ряд серьезных уязвимостей, поэтому действуйте очень осторожно. Помните, что неправомерный доступ к компьютерной информации или нарушение правил эксплуатации средств хранения, обработки или передачи компьютерной информации преследуется по закону!"
+        },
+        "lookup": {
+            "title": "Поиск серверов",
+            "header_01": "Поиск доступных серверов",
+            "header_text_01": "Некоторые сайты предоставляют пользователям возможность выполнять команды операционных систем непосредственно в веб-интерфейсе. Это заметно удобнее, чем набирать команды руками. Например, на этом сайте можно проверить доступность любого сервера в сети интернет. Просто введите DNS-имя или IP-адрес сервера и мы проверим его доступность с помощью команды ping. Интересно, можно ли заставить сервер выполнять ваши команды, а не те, которые предусмотрел разработчик?",
+            "header_02": "Проверить доступность сервера:",
+            "ping_button": "Проверить",
+            "message_success": "Успешная эксплуатация!",
+            "header_03": "Поиск доступных серверов",
+            "header_text_03": "Нельзя позволять пользователям выполнять команды непосредственно на вашем сервере без предваритльной фильтрации! Подобная уязвимость может дать возможность выполнять любые команды, а это недопустимо."
+        },
+        "account": {
+            "title": "Вход в аккаунт",
+            "form_username": "Имя:",
+            "form_password": "Пароль:",
+            "form_button": "Вход",
+            "header_01": "Вход в аккаунт",
+            "header_text_01": "Это дополнительная панель управления для личных кабинетов сотрудников компании. Там содержится какая-то важная информация, осталось только узнать пароль. И начать пожалуй стоит с аккаунта admin.",
+            "message_success": "Пароль верный!",
+            "message_fail": "Логин или пароль неверные!",
+            "header_02": "Введите данные учетной записи:",
+            "username": "Имя пользователя: ",
+            "password": "Пароль: ",
+            "avatar": "/img/profile/",
+            "header_03": "В чем проблема?",
+            "header_text_03": "Имея достаточные вычислительные мощности и запас по времени, злоумышленник может просто подобрать пароль. Так просто."
+        },
+        "files": {
+            "title": "Работа с файлами",
+            "header_01": "Работа с файлами",
+            "header_text_01": "C помощью этой формы вы можете просмотреть содержимое некоторых файлов, которые лежат у нас на сервере. Как здорово, что мы ограничили этот перечень с помощью выпадающего списка - теперь мы точно знаем, что остальные файлы недоступны любопытным пользователям. Или нет?",
+            "view_button": "Просмотреть",
+            "file_01": "Файл 01",
+            "file_02": "Файл 02",
+            "file_03": "Файл 03",
+            "message_success": "Получен доступ к файлу операционной системы",
+            "header_03": "В чем проблема?",
+            "header_text_03": "Если код приложения предопалагает получение файлов непосредствено из операционной системы, то следует уделить особое внимание ограничению тому, к чему можно обращаться на диске."
+        },
+        "resume": {
+            "title": "Отправка резюме",
+            "header_01": "Отправка резюме",
+            "header_text_01": "Вы можете присоединиться к нашей команде профессионалов! Достаточно просто отправить нам резюме. Есть одно НО - мы принимаем резюме только в формате pdf и никак иначе. Будет крайне неприятно если вам удаcтся вместо резюме прислать провокационную картинку или того хуже.",
+            "header_02": "В чем проблема?",
+            "header_text_02": "Многие сайты некорректно проверяют содержимое файлов, ориентируясь исключительно на расширение файла. При этом они не учитывают ни размер, ни mime-тип.",
+            "message_fail": "Мы не принимаем резюме в таком формате!",
+            "message_no_resume": "Нужно приложить резюме!",
+            "message_success": "Резюме отправлено. Мы рассмотрим его как только, так сразу",
+            "message_hacked": "Нелегитимный файл успешно отправлен!",
+            "link": "Резюме доступно по ссылке:"
+        },
+        "searchbyid": {
+            "title": "Поиск сотрудников",
+            "header_01": "Поиск сотрудников",
+            "header_text_01": "Этот инструмент помогает найти пользователя системы по его идентификатору User ID. Просто введите номер и ничего больше. И ничего больше. Что вообще может пойти не так?",
+            "search_placeholer": "Введите ID пользователя",
+            "search_button": "Поиск",
+            "message_hacked": "Успешная SQL инъекция!",
+            "table_id": "ID",
+            "table_name": "Имя",
+            "table_avatar": "Аватар",
+            "header_02": "В чем проблема?",
+            "header_text_02": "Если знать, или догадаться, как устроен SQL-запрос, отправляемый на сервер, то можно попробовать изменить его. А если со стороны сервера вводимые данные никак не фильтруются, то через SQL-инъекцию можно добыть почти любые сведения из базы данных."
+        },
+        "language": {
+            "title": "Выбор языка",
+            "header_01": "Выбор языка",
+            "header_text_01": "Здесь можно выбрать язык сайта. К сожалению, функция пока не работает, но вы можете посмотреть, с какими языками мы планируем работать. Это жестко заданный список языков, и вы не можете добавлять в него свои пожелания. Или?",
+            "header_02": "В чем проблема?",
+            "header_text_02": "DOM тоже уязвима к XSS-инъекциям. Серьезно. Если для создания объектов DOM используются пользовательские данные, то есть реальная вероятность внедрить в дерево DOM свой вредоносный код",
+            "lang_form_btn": "Выбрать",
+            "lang_form_01": "Русский",
+            "lang_form_02": "Английский",
+            "lang_form_03": "Немецкий",
+            "message_success": "Успешная DOM-XSS инъекция!"
+        },
+        "chat": {
+            "title": "Чат",
+            "header_01": "Чат бот",
+            "header_text_01": "Этот чат бот построен с помощью искусственного интеллекта и не имеющих аналогов в мире алгоритмов. Но пока, всё что он умеет — это здороваться. Попробуйте, и он вам ответит.",
+            "chat_placeholder": "Введите ваше имя",
+            "chat_button": "Отправить",
+            "message_hacked": "Успешная XSS атака!",
+            "message_ok": "Чат работает. Привет",
+            "header_02": "В чем проблема?",
+            "header_text_02": "Если не фильтровать то, что вводит пользователь, то полученная таким образом ссылка может содержать вредоносное содержимое."
+        },
+        "guestbook": {
+            "title": "Гостевая книга",
+            "header_01": "Гостевая книга",
+            "header_text_01": "В гостевых книгах и на форумах пользователи могут оставлять свои сообщения или комментировать сообщения других пользователей. Вот и здесь можно оставить какое-то сообщения всем, кто захочет его прочитать. Будьте осторожны - всё, что вы здесь напишете, смогут прочесть все до единого посетители страницы.",
+            "guestbook_name": "Имя",
+            "guestbook_record": "Сообщение",
+            "header_02": "Добавить сообщение:",
+            "guestbook_form_name": "Здесь нужно указать своё имя (максимум 15 символов)",
+            "guestbook_form_record": "Здесь нужно написать сообщение (максимум 100 символов)",
+            "guestbook_form_add": "Добавить",
+            "guestbook_form_clear": "Очистить гостевую книгу",
+            "message_success": "Успешная XSS атака!",
+            "header_03": "В чем проблема?",
+            "header_text_03": "Все вводимые пользовательские данные необходимо фильтровать. В этом примере пользователю было позволено добавлять исполняемый код в базу данных, содержащую комментарии в гостевой книге. При загрузке страницы этот исполняемый код будет выполняться при каждом обращении."
+        },
+        "passwordrecover": {
+            "title": "Восстановление пароля",
+            "header_01": "Восстановление пароля",
+            "header_text_01": "Довольно часто пользователям предоставляется возможность самостоятельно вносить изменения в настройки своего аккаунта. Это могут быть косметические настройки, вроде цветовой схемы или аватара. Но кроме этого, пользователи должны иметь возможность изменять свой пароль. Чтобы защитить эту функцию, мы, как и многие разработчики используем специальные токены. Но мы никому не расскажем, как именно генерируется этот токен.",
+            "header_02": "Я хочу восстановить пароль:",
+            "header_text_02": "Для восстановления пароля нужно ввести слово фразу \"Help!\". Однако это сработает только если Вы укажете правильный токен.",
+            "header_button_02": "Восстановить пароль",
+            "message_fail": "Токен неверный!",
+            "message_success": "Токен верный!",
+            "message_success_hash": "Хэш вашего пароля: ",
+            "header_03": "В чем проблема?",
+            "header_text_03": "Иногда разработчики веб-приложений делают доступной для чтения некоторую логику, которая по-хорошему должна быть на стороне сервера. Как и в этом случае, когда генерация токена происходит на стороне клиента. Опытный хакер может изучить доступный ему исходный код и нарушить работу веб-приложения. К счастью, в этот раз мы получили только хэш пароля, потому что хранение пароля в открытом виде — это куда большая проблема."
+        },
+        "adminaccess": {
+            "title": "Управление",
+            "header_01": "Центр управления доступом",
+            "header_text_01": "В этой консоли можно управлять доступом к различным аспектам систем. Система защиты строится на том, что доступ возможен только с определенных устройств. Система распознает устройства, проверяя User Agent, а значит, даже имея нужный логин и пароль, доступ получить не получится, не имея в руках правильного устройства. Мы раздали всем руководителям модные планшеты с фруктовым логотипом, и только они могут управлять всем.",
+            "header_02": "Управление!",
+            "message_fail": "Вы не можете управлять доступом с этого устройства",
+            "message_success": "Доступ к консоли управления получен!",
+            "interface_00": {
+                "item_01": "Выбор уровня безопасности на внешнем периметре.",
+                "item_02": "Повышенный",
+                "item_03": "Средний",
+                "item_04": "Базовый"
+            },
+            "interface_01": "Выключить свет",
+            "interface_02": "Включить отопление",
+            "interface_03": "Включить камеры наблюдения",
+            "interface_04": "Включить СКУД",
+            "interface_05": "Настройка температуры в помещениях:",
+            "header_03": "В чем проблема?",
+            "header_text_03": "Проблема такого подхода к безопасности в том, что строку User Agent можно легко подделать. Правильный подход — это создание надежной аутентификации и авторизации доступа к ресурсам."
+        },
+        "logout": {
+            "title": "Выход"
+        },
+        "search": {
+            "title": "Поиск",
+            "header_01": "Результаты поиска:",
+            "header_text_01_1": "Вы искали: ",
+            "header_text_01_2": ", но такого нет этом сайте.",
+            "header_text_02": "На самом деле, функции поиска, судя по всему, вообще не работает. Однако, мы спрятали несколько пасхалок и найти их можно с помощью поиска. Найти с помощью поиска, игра слов."
+        },
+        "interface": {
+            "sitetitle": "ООО «Газпром добыча Марс»",
+            "searchfield": "Поиск по сайту",
+            "searchbutton": "Поиск",
+            "loggedin": "Вы вошли как ",
+            "language": "ru"
+        },
+        "login": {
+            "email": "Электронная почта",
+            "password": "Пароль",
+            "login": "Войти",
+            "register": "Нет аккаунта? Нужно зарегистрироваться!",
+            "register_button": "Зарегистрироваться",
+            "copyright": "Copyright © 2022 belowzero273"
+
+        }
+    },
+    "en": {
+        "main": {
+            "title": "Home Page",
+            "header_01": "Welcome to Mars!",
+            "header_text_01": "Today, Gazprom Dobycha Mars, LLC, is a dynamically developing gas transportation company whose strategy is aimed at ensuring the energy stability of the Solar system as well as the strict fulfillment of a company's contractual obligations for gas supplies for export. The company annually transports over 150 billion cubic meters of natural gas. Fuel supplies are carried out with a high degree of reliability in accordance with contractual terms. Our responsibility area includes more than 12,000 km of gas pipelines, 33 compressor shops with 197 gas pumping units with a total capacity of 1,883 MW, 252 gas distribution stations, facilities for heat, power and water supply, communications, metrology, and automation. Currently, the company has more than 1337 employees.",
+            "header_02": "Attention!",
+            "header_text_02": "We recently audited our site, and the auditors found a number of serious vulnerabilities, so please proceed very carefully. Remember that illegal access to computer information or violation of the rules for the operation of storage, processing or transmission of computer information is punishable by law."
+        },
+        "lookup": {
+            "title": "Servers search",
+            "header_01": "Search for available servers",
+            "header_text_01": "Some sites provide the ability to execute operating system commands directly from the web interface for their users. This is much more convenient than typing commands by hand. For example, on this site you can check the availability of any server on the Internet. Just enter the DNS name or IP address of the server and we will check its availability using the ping command. So, it is possible to force the server to execute your commands, and not those provided by the developer?",
+            "header_02": "Check server availability:",
+            "ping_button": "Check",
+            "message_success": "Successful!",
+            "header_03": "Search for available servers",
+            "header_text_03": "Users are not allowed to execute commands directly on the server without first filtering! This vulnerability can make it possible to execute any commands, and this is unacceptable."
+        },
+        "account": {
+            "title": "Log in",
+            "form_username": "Username:",
+            "form_password": "Password:",
+            "form_button": "Login",
+            "header_01": "Login",
+            "header_text_01": "This is an additional control panel for personal accounts of employees. It contains some important information, we need only to find out the password. And it's probably worth starting with an admin account.",
+            "message_success": "Correct password!",
+            "message_fail": "Login or password is incorrect!",
+            "header_02": "Fill the account information:",
+            "username": "Username: ",
+            "password": "Password: ",
+            "avatar": "/img/profile/",
+            "header_03": "What is the problem?",
+            "header_text_03": "With sufficient computing power and time, an attacker can simply guess the password. This is so simple."
+        },
+        "files": {
+            "title": "Working with files",
+            "header_01": "Working with files",
+            "header_text_01": "Using this form, you can view the contents of some files that are located on our server. It's great that we limited this register with a drop-down list – now we know for sure that the rest of the files are inaccessible to curious users. Or not?",
+            "view_button": "Просмотреть",
+            "file_01": "File 01",
+            "file_02": "File 02",
+            "file_03": "File 03",
+            "message_success": "Access to operating system file gained",
+            "header_03": "What is the problem?",
+            "header_text_03": "Special attention should be paid to limiting what can be accessed on disk if the application code expects to receive files directly from the operating system."
+        },
+        "resume": {
+            "title": "Send resume",
+            "header_01": "Send resume",
+            "header_text_01": "You can join our team of professionals! Just send us your resume. There is one BUT - we only accept resumes in pdf format. It would be extremely unpleasant if you would manage to send a provocative picture instead of a resume or even worse.",
+            "header_02": "What is the problem?",
+            "header_text_02": "Many sites check incorrectly the contents of files based only on the file extension. At the same time, they do not consider either the size or the mime type.",
+            "message_fail": "We do not accept resumes in this format!",
+            "message_no_resume": "You have to attach you resume!",
+            "message_success": "Your resume is sent. We will review it as soon as possible",
+            "message_hacked": "Invalid file is sent successfully!",
+            "link": "Resume is available via the link.:"
+        },
+        "searchbyid": {
+            "title": "Search for employees",
+            "header_01": "Search for employees",
+            "header_text_01": "This tool helps to find a system user by their User ID. Just enter a number and nothing more. And nothing more. What can possibly go wrong?",
+            "search_placeholer": "Enter User ID",
+            "search_button": "Search",
+            "message_hacked": "Successful SQL injection!",
+            "table_id": "ID",
+            "table_name": "Name",
+            "table_avatar": "Avatar",
+            "header_02": "What is the problem?",
+            "header_text_02": "If you know or guess how the SQL query sent to the server works, so you can try to change it. And if the input data is not filtered in any way on the server side, then almost any information from the database can be obtained through SQL injection."
+        },
+        "language": {
+            "title": "Language selection",
+            "header_01": "Language selection",
+            "header_text_01": "Here you can select the language of the site. Unfortunately, the function does not work yet, but you can see what languages we plan to work with. This is a hard-coded language list, and you cannot add your wishes in. Or?",
+            "header_02": "What is the problem?",
+            "header_text_02": "The DOM is also vulnerable to XSS injections. Seriously. If user's data is used to create DOM objects, then there is a real possibility of injecting your own malicious code into the DOM tree",
+            "lang_form_btn": "Choose",
+            "lang_form_01": "Russian",
+            "lang_form_02": "English",
+            "lang_form_03": "Deutsch",
+            "message_success": "Successful DOM-XSS injection!"
+        },
+        "chat": {
+            "title": "Chat",
+            "header_01": "Chat bot",
+            "header_text_01": "This chat bot is built using artificial intelligence and algorithms with no analogues in the world. But for now, all it can do is say hello. Try it and it will answer you.",
+            "chat_placeholder": "Enter your name",
+            "chat_button": "Send",
+            "message_hacked": "Successful XSS attack!",
+            "message_ok": "The chat is working. Hi",
+            "header_02": "What is the problem?",
+            "header_text_02": "If you do not filter what the user enters, then the resulting link may contain malicious content."
+        },
+        "guestbook": {
+            "title": "Guestbook",
+            "header_01": "Guestbook",
+            "header_text_01": "In guestbooks and forums, users can leave their own messages or comment on other users' posts. Here you can leave a message for anyone who wants to read it. Be careful, everything you write here can be read by every single page visitor.",
+            "guestbook_name": "Name",
+            "guestbook_record": "Message",
+            "header_02": "Add message:",
+            "guestbook_form_name": "Enter your name here (max. 15 characters)",
+            "guestbook_form_record": "Enter your message here (max. 100 characters)",
+            "guestbook_form_add": "Add",
+            "guestbook_form_clear": "Clear guestbook",
+            "message_success": "Successful XSS attack!",
+            "header_03": "What is the problem?",
+            "header_text_03": "All user input must be filtered. In this example, the user was allowed to add executable code to a database containing comments in the guestbook. When the page is loaded, this executable code will be executed every time it is accessed."
+        },
+        "passwordrecover": {
+            "title": "Password recovery",
+            "header_01": "Password recovery",
+            "header_text_01": "Quite often, users are given the opportunity make changes to the settings of their account themselves. These can be cosmetic tweaks, like a color scheme or an avatar. But other than that, users should be able to change their password. To protect this feature, we, like many developers, use special tokens. But we will not tell anyone exactly how this token is generated.",
+            "header_02": "I want to recover my password:",
+            "header_text_02": "To recover your password, you need to enter the word phrase \"Help!\". However, this will only work if you provide the correct token.",
+            "header_button_02": "Recover password",
+            "message_fail": "Token is invalid!",
+            "message_success": "Token is correct!",
+            "message_success_hash": "Hash of your password: ",
+            "header_03": "What is the problem?",
+            "header_text_03": "Sometimes web application developers make some logic readable that should be on the server side. As in this case, when the token generation occurs on the client side. An experienced hacker can examine the source code available to him and break the web application. Fortunately, this time we only got the hash of the password, because keeping the password in plain text is a much bigger problem."
+        },
+        "adminaccess": {
+            "title": "Control",
+            "header_01": "Access Control Center",
+            "header_text_01": "In this console you can manage access to various aspects of the systems. The security system is based on the fact that access is possible only from certain devices. The system recognizes devices by checking the User Agent, so even if you have the right login and password, you won't be able to get access without having the right device in your hands. We have given out trendy tablets with a fruit logo to all executives, and only they can control everything.",
+            "header_02": "Control!",
+            "message_fail": "You cannot control access from this device",
+            "message_success": "Management console accessed!",
+            "interface_00": {
+                "item_01": "Selecting the security level on the outer perimeter",
+                "item_02": "Hight",
+                "item_03": "Medium",
+                "item_04": "Base"
+            },
+            "interface_01": "Turn off the lights",
+            "interface_02": "Turn on heating",
+            "interface_03": "Turn on Surveillance Cameras",
+            "interface_04": "Turn on PACS",
+            "interface_05": "Setting the room temperature:",
+            "header_03": "What is the problem?",
+            "header_text_03": "The problem with this approach to security is that the User Agent line can be easily spoofed. The correct approach is to create strong authentication and authorization of access to resources."
+        },
+        "logout": {
+            "title": "Exit"
+        },
+        "search": {
+            "title": "Search",
+            "header_01": "Search results:",
+            "header_text_01_1": "You searched: ",
+            "header_text_01_2": ", but this site does not have it.",
+            "header_text_02": "Actually, the search function doesn't seem to work at all. However, we have hidden a few Easter eggs and you can search them using the search. Search using search, pun."
+        },
+        "interface": {
+            "sitetitle": "Gazprom Dobycha Mars, LLC»",
+            "searchfield": "Site search",
+            "searchbutton": "Search",
+            "loggedin": "You are logged in as ",
+            "language": "en"
+        },
+        "login": {
+            "email": "Email",
+            "password": "Password",
+            "login": "Log in",
+            "register": "Don't have an account yet? Register here!",
+            "register_button": "Register",
+            "copyright": "Copyright © 2022 belowzero273"
+        }
+    }
+}

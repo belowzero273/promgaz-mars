@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        <%= lang.interface.sitetitle %>
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/ico" href="favicon.svg">
+    <script defer type="text/javascript" src="/js/highlight.js"></script>
+    <script defer type="text/javascript" src="/js/langselect.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header">
+
+                        <div class="row">
+                            <div class="col-lg-3 ">
+                                <img class="site-logo" src="/img/logo_small_mars.png" alt="Mars">
+                            </div>
+                            <div class="col-lg-4">
+                            </div>
+                            <div class="col-lg-5 system_info vstack gap-1">
+                                <div><img class="img-flag<% if (lang.interface.language == "ru") { %> selected-flag<% } %>" id="flag-ru" src="/flags/ru.png">
+                                <img class="img-flag<% if (lang.interface.language == "en") { %> selected-flag<% } %>" id="flag-gb" src="/flags/gb.png"></div>
+                                <div><em><%= lang.interface.loggedin %></em>
+                                        <% if (user) { %>
+                                        <%= user.email %>
+                                        <% } %>
+                                    </div>
+                                    <div><form action="/search" method="get">
+                                    <div class="input-group">
+                                    <input type="search" name="search"
+                                                                class="form-control form-control-sm rounded"
+                                                                placeholder="<%= lang.interface.searchfield %>"
+                                                                aria-label="<%= lang.interface.searchbutton %>"
+                                                                aria-describedby="search-addon" alt="" />
+                                        <button type="submit" type="button"
+                                                                class="btn btn-primary btn-sm default-btn ">
+                                                                <%= lang.interface.searchbutton %>
+                                                            </button>
+                                                        </div>
+                                                    </form></div>
+                                                    <div>version 1.0</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>

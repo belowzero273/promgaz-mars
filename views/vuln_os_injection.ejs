@@ -1,0 +1,32 @@
+<%- include('partials/main_header'); -%>
+  <%- include('partials/main_menu'); -%>
+
+    <h1><%= lang.lookup.header_01 %> </h1>
+    <p class="paragraph-text"><%= lang.lookup.header_text_01 %></p>
+    <div class="challenge-form">
+      <h4><%= lang.lookup.header_02 %></h4>
+
+      <form method="post" action="/lookup">
+        <div class="input-group">
+          <input class="form-control" name="target" />
+
+          <button type="submit" class="btn btn-primary default-btn"><%= lang.lookup.ping_button %></button>
+        </div>
+      </form>
+    </div>
+    <% if (result=="" ) { %>
+
+      <%} else if (result=="hacked" ) { %>
+        <br>
+        <div class="got-access"><%= lang.lookup.message_success %><br /></div>
+        <br>
+        <pre class="ping-result"> <%= resultPing %></pre>
+        <hr>
+        <h2><%= lang.lookup.header_03 %></h2>
+        <p class="paragraph-text"><%= lang.lookup.header_text_03 %></p>
+        <%} else if (result=="valid" ) { %>
+          <br>
+          <pre class="ping-result"> <%= resultPing %></pre>
+
+          <% } %>
+            <%- include('partials/main_footer'); -%>

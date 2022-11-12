@@ -1,0 +1,46 @@
+<%- include('partials/main_header'); -%>
+    <%- include('partials/main_menu'); -%>
+
+
+        <h1><%= lang.passwordrecover.header_01 %></h1>
+        <p class="paragraph-text"><%= lang.passwordrecover.header_text_01 %></p>
+        <h2><%= lang.passwordrecover.header_02 %></h2>
+
+        <form method="post" action="/passwordrecover">
+            <div class="input-group mb-3 challenge-form">
+                <input class="form-control rounded" type="hidden" name="phrase" value="">
+                <input class="form-control rounded" name="token">
+            <button type="submit" class="btn btn-primary btn-sm default-btn"><%= lang.passwordrecover.header_button_02 %></button>
+        </div>
+        <div id="helpform" class="form-text"><%= lang.passwordrecover.header_text_02 %></div>
+        </form>
+        <% if (access=="invalid" ) { %>
+            <div class="no-access"><%= lang.passwordrecover.message_fail %></div>
+            <%} else if (access=="valid" ) { %>
+
+                <div class="got-access"><%= lang.passwordrecover.message_success %><br>
+                    <%= lang.passwordrecover.message_success_hash %><%= hash %></div>
+                    <hr>
+                    <h2><%= lang.passwordrecover.header_03 %></h2>
+                    <p><%= lang.passwordrecover.header_text_03 %></p>
+                <%} else if (access=="" ) { %>
+
+                    <% } %>
+
+
+
+                        <script>
+                            function rot13(message) {
+                                return message.replace(/[a-z]/gi, letter => String.fromCharCode(letter.charCodeAt(0) + (letter.toLowerCase() <= 'm' ? 13 : -13)));
+                            }
+
+                            function generate_token() {
+                                var phrase = document.getElementById("token").value;
+                                var token = rot13(phrase);
+                                console.log(token);
+                                return token;
+                            }
+
+                            generate_token();
+                        </script>
+                        <%- include('partials/main_footer'); -%>

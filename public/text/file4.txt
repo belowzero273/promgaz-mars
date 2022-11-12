@@ -1,0 +1,35 @@
+<table>
+<thead>
+  <tr>
+    <th>Employee</th>
+    <th>Salary</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Sectoid</td> 
+    <td>100$</td>
+  </tr>
+    <tr>
+    <td>Floater</td>
+    <td>500$</td>
+  </tr>
+    <tr>
+    <td>Snakeman</td>
+    <td>1000$</td>
+  </tr>
+    <tr>
+    <td>Muton</td>
+    <td>5000$</td>
+  </tr>
+    <tr>
+    <td>Ethereal</td>
+    <td>1000000$</td>
+  </tr>
+    <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</tbody>
+</table>

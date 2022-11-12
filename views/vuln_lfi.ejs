@@ -1,0 +1,37 @@
+<%- include('partials/main_header'); -%>
+    <%- include('partials/main_menu'); -%>
+
+	<h1><%= lang.files.header_01 %></h1>
+	<p class="paragraph-text"><%= lang.files.header_text_01 %></p>
+    <div class="challenge-form">
+	<form method="post" action="/files">
+										<div class="input-group">
+										<select name="filename" class="form-select">
+											<option value="public/text/file1.txt"><%= lang.files.file_01 %></option>
+											<option value="public/text/file2.txt"><%= lang.files.file_02 %></option>
+											<option value="public/text/file3.txt"><%= lang.files.file_03 %></option>
+										</select>
+										<button class="btn btn-primary default-btn" type="submit"><%= lang.files.view_button %></button>
+									</div>
+							</form>
+						</div>
+			<br>			
+
+		
+
+
+			<% if (access=="hacked") { %>
+				<br>
+				<div class="got-access"><%= lang.files.message_success %><br /></div>
+				<p class="paragraph-text"> <%- file %> </p>
+				<hr>
+				<h2><%= lang.files.header_03 %></h2>
+				<p><%= lang.files.header_text_03 %></p>
+				<% } else if (access=="") { %>
+					<br>
+					<p class="paragraph-text"> <%- file %> </p>
+					<br>
+
+					<% } %>
+
+                    <%- include('partials/main_footer'); -%>

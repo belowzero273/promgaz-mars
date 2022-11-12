@@ -1,0 +1,286 @@
+/* login form */
+
+.login-body{
+  background-color: black;
+  background: url(/img/mars.jpg);
+  background-repeat: no-repeat center center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-form-div {
+  background-color: #fff;
+  position: absolute;
+  width: 500px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 1em 2em;
+  display: table;
+  border-radius: 5%;
+}
+
+.login-form-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.back {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.form-img {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.form-field {
+  margin-bottom: 30px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.error {
+  color: crimson;
+  margin: 10px 2px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+
+body {
+  background-color: black;
+  background: url(../img/mars.jpg);
+  background-repeat: no-repeat center center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+}
+
+hr {
+  border-width: 0px;
+  color: gray;
+  background-color: gray;
+  height: 1px;
+}
+
+.container {
+  width: 1200px;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  font-size: 13px;
+  border-radius: 15px;
+}
+
+.header {
+  margin-top: 25px;
+  padding: 12px;
+  overflow: hidden;
+  background: white;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.system_info {
+  padding: 10px;
+  text-align: right;
+}
+
+
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+ul.menu_items {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+ul + ul,
+ul + ul.menu_items,
+ul + h1,
+ul + h2,
+ul + p {
+  margin-top: 20px;
+}
+
+
+/* Main menu style */
+
+.main_menu {
+  float: left;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main_menu li {
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 6px 10px 6px 10px;
+  margin-bottom: 1px;
+}
+
+.main_menu li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main_menu li.selected {
+  background-color: #0173ba;
+}
+
+.main_menu li.selected a {
+  color: #f9f7ed;
+}
+
+.main_menu li:hover {
+  border-width: 0px;
+  border-style: solid;
+  border-color: #0173ba;
+  border-radius: 5px;
+  padding: 6px 10px 6px 10px;
+  margin-bottom: 1px;
+  background-color: #0173ba;
+}
+
+.main_menu li:hover a {
+  color: #f9f7ed;
+}
+
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+.footer {
+  color: #999999;
+  border-radius: 0px 0px 15px 15px;
+  background: white;
+  padding: 0px;
+  text-align: center;
+  border-top: 0px solid #0173ba;
+  margin-bottom: 25px;
+}
+
+/* Failure div */
+.no-access {
+  border-color: #c50000;
+  border: solid;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: white;
+  font-size: large;
+  background-color: #c50000;
+}
+
+/* Success div */
+.got-access {
+  border-color: #327e00;
+  border: solid;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: white;
+  font-size: large;
+  background-color: #327e00;
+}
+
+/* Content of the challenge */
+.content {
+  margin: 2%;
+}
+
+.img-flag {
+  border: 1px solid black;
+  filter: grayscale(100%);
+}
+
+.img-flag:hover {
+  border: 1px solid black;
+  filter: grayscale(0%);
+}
+
+.selected-flag {
+  border: 1px solid black;
+  filter: grayscale(0%);
+}
+
+/* active buttons */
+.default-btn {
+  background-color: #0173ba !important;
+}
+
+/* active challenge forms */
+.challenge-form {
+  background-color: #89c9f1;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.login-form {
+  padding-bottom: 50px;
+}
+
+.ping-result {
+  font-size: 18px;
+  color: black;
+}
+.paragraph-text {
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.button-div {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.scoreboard-header {
+  writing-mode: vertical-rl;
+  text-align: right;
+  font-size: 16px;
+}
+
+.scoreboard-items {
+  font-size: 16px;
+}
+  
+
+.site-logo {
+  max-width:100%;
+  max-height:100%;
+}
