@@ -190,6 +190,12 @@ ul + p {
   margin-bottom: 25px;
 }
 
+.footer-icon {
+  margin:0px 5px;
+  width: 3%;
+  height: 3%"
+}
+
 /* Failure div */
 .no-access {
   border-color: #c50000;
@@ -284,3 +290,4 @@ ul + p {
   max-width:100%;
   max-height:100%;
 }
+

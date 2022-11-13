@@ -1,52 +1,82 @@
-<%- include('partials/main_header'); -%> <%- include('partials/main_menu'); -%>
+<%- include('partials/main_header'); -%>
+  <%- include('partials/main_menu'); -%>
 
-<h1><%= lang.guestbook.header_01 %></h1>
-<p class="paragraph-text"><%= lang.guestbook.header_text_01 %></p>
-<table class="table">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col"><%= lang.guestbook.guestbook_name %></th>
-      <th scope="col"><%= lang.guestbook.guestbook_record %></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% queryResults.forEach(function(id){ %>
-    <tr>
-      <th scope="row"><%- id.name %></th>
-      <td><%- id.record %></td>
-    </tr>
-    <% }) %>
-  </tbody>
-</table>
+    <h1>
+      <%= lang.guestbook.header_01 %>
+    </h1>
+    <p class="paragraph-text">
+      <%= lang.guestbook.header_text_01 %>
+    </p>
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">
+            <%= lang.guestbook.guestbook_name %>
+          </th>
+          <th scope="col">
+            <%= lang.guestbook.guestbook_record %>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% queryResults.forEach(function(id){ %>
+          <tr>
+            <th scope="row">
+              <%- id.name %>
+            </th>
+            <td>
+              <%- id.record %>
+            </td>
+          </tr>
+          <% }) %>
+      </tbody>
+    </table>
 
-<div class="challenge-form">
-  <h2><%= lang.guestbook.header_02 %></h2>
-<form method="post" action="/guestbook">
-  <div class="mb-3">
-    <input class="form-control" name="name" maxlength="15" />
-    <div class="form-text"><%= lang.guestbook.guestbook_form_name %></div>
+    <div class="challenge-form">
+      <h2>
+        <%= lang.guestbook.header_02 %>
+      </h2>
+      <form method="post" action="/guestbook">
+        <div class="mb-3">
+          <input class="form-control" name="name" maxlength="15" />
+          <div class="form-text">
+            <%= lang.guestbook.guestbook_form_name %>
+          </div>
+          <input class="form-control" name="record" maxlength="100" />
+          <div class="form-text">
+            <%= lang.guestbook.guestbook_form_record %>
+          </div>
 
-    <input class="form-control" name="record" maxlength="100" />
-    <div class="form-text"><%= lang.guestbook.guestbook_form_record %></div>
-  </div>
-  <button type="submit" class="btn btn-primary default-btn float-right">
-    <%= lang.guestbook.guestbook_form_add %>
-  </button>
- 
-  </form>
-  <form method="post" action="/guestbookclear">
-    <button type="submit" class="btn btn-primary default-btn">
-      <%= lang.guestbook.guestbook_form_clear %>
-    </button>
-</form>
-</div>
+          <div class="text-end">
+            <button type="submit" class="btn btn-primary default-btn">
+              <%= lang.guestbook.guestbook_form_add %>
+            </button>
+          </div>
+        </div>
+      </form>
+      <form method="post" action="/guestbookclear">
+        <div class="text-end">
+          <button type="submit" class="btn btn-primary default-btn">
+            <%= lang.guestbook.guestbook_form_clear %>
+          </button>
+        </div>
+      </form>
+    </div>
 
 
 
-<% if (result=="" ) { %> <%} else if (result=="valid" ) { %>
+    <% if (result=="" ) { %>
+      <%} else if (result=="valid" ) { %>
 
-<div class="got-access"><%= lang.guestbook.message_success %><br /></div>
-<hr />
-<h2><%= lang.guestbook.header_03 %></h2>
-<p><%= lang.guestbook.header_text_03 %></p>
-<% } %> <%- include('partials/main_footer'); -%>
+        <div class="got-access">
+          <%= lang.guestbook.message_success %><br />
+        </div>
+        <hr />
+        <h2>
+          <%= lang.guestbook.header_03 %>
+        </h2>
+        <p>
+          <%= lang.guestbook.header_text_03 %>
+        </p>
+        <% } %>
+          <%- include('partials/main_footer'); -%>
