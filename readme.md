@@ -70,7 +70,7 @@ I think it should also work on Windows Server, but it will take you some time fi
 ![Login](/public/img/github/login.png)
 - Then login and start hacking/teaching/learning/whatever you do
 ![Challenge](/public/img/github/challenge.png)
-- If you host this app in your class, you can use http://127.0.0.1:3000/scoreboard to track you students progress.
+- If you host this app in your class, you can use http://127.0.0.1:3000/scoreboard to track your students progress.
 ![Scoreboard](/public/img/github/scoreboard.png)
 
 - - -
