@@ -1,0 +1,16 @@
+{
+    "os_command_injection": "",
+    "brute_force": "",
+    "local_files_inclusion": "",
+    "file_upload_tamper": "",
+    "sql_injection": "",
+    "dom_xss_injection": "",
+    "reflectied_xss_injection": "",
+    "stored_xss_injection": "",
+    "client_side_security": "",
+    "web_parameter_tamper": ""
+}
+
+
+
+    

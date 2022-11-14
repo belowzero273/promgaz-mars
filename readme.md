@@ -32,7 +32,7 @@ The best way is to just use pre-built container.
 docker run -p 3000:3000 -d belowzero273/promgaz-mars
 ```
 
-But you can also install everything manually by yourslef. You'll need NodeJS, MongoDB and Mysql. For Debian-like distro process is straight forward:
+But you can also install everything manually by yourself. You'll need NodeJS, MongoDB and Mysql. For Debian-like distro process is straight forward:
 
 Start with NodeJS:
 
