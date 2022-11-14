@@ -1,5 +1,5 @@
 {
-  "name": "gazprom-mars",
+  "name": "promgaz-mars",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -20,9 +20,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/belowzero273/gazprom-mars.git"
+    "url": "git+https://github.com/belowzero273/promgaz-mars.git"
   },
   "keywords": [],
   "author": "belowzero273",
-  "homepage": "https://github.com/belowzero273/gazprom-mars#readme"
+  "homepage": "https://github.com/belowzero273/promgaz-mars#readme"
 }
