@@ -1,6 +1,6 @@
-# Gazprom Dobycha Mars LLC Web Application
+# Promgaz Dobycha Mars LLC Web Application
 
-Gazprom Dobycha Mars LLC Web Application (GDMWA) is a NodeJS/MySQL/MongoDB web site of a fictional company that contains various vulnerabilities. 
+Promgaz Dobycha Mars LLC Web Application (PDMWA) is a NodeJS/MySQL/MongoDB web site of a fictional company that contains various vulnerabilities. 
 Its main purpose is to train web developers to write secure code as well as to help pentesters to practice their skills. 
 
 I personally use this app during my classes with web developers of different skill levels. 
@@ -16,7 +16,7 @@ Since this app is intentionally vulnerable, please don't even think of hosting i
 
 ## License
 
-Gazprom Dobycha Mars LLC Web Application (GDMWA) is a free software. You can use it as you like under terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version. But please note, that there are no warranties, so see the GNU General Public License for more details. 
+Promgaz Dobycha Mars LLC Web Application (GDMWA) is a free software. You can use it as you like under terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version. But please note, that there are no warranties, so see the GNU General Public License for more details. 
  
 It's free, but if you like it, I don't mind if you buy me a coffee :wink:
 
@@ -29,7 +29,7 @@ It's free, but if you like it, I don't mind if you buy me a coffee :wink:
 The best way is to just use pre-built container. 
 
 ```bash
-docker run -p 3000:3000 -d belowzero273/gazprom-mars
+docker run -p 3000:3000 -d belowzero273/promgaz-mars
 ```
 
 But you can also install everything manually by yourslef. You'll need NodeJS, MongoDB and Mysql. For Debian-like distro process is strait forward:

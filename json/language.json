@@ -3,7 +3,7 @@
         "main": {
             "title": "Главная страница",
             "header_01": "Добро пожаловать на Марс!",
-            "header_text_01": "Сегодня ООО «Газпром добыча Марс» — динамично развивающееся газотранспортное предприятие, стратегия которого направлена на обеспечение энергетической стабильности Солнечной системы, а также четкое выполнение контрактных обязательств компании по поставкам газа на экспорт. Ежегодно компания транспортирует свыше 150 млрд кубометров природного газа. Поставки топлива осуществляются с высокой степенью надежности в соответствии с контрактными условиями. В нашу зону ответственности входят более 12 тыс. км газопроводов, 33 компрессорных цеха со 197 газоперекачивающими агрегатами суммарной мощностью 1883 МВт, 252 газораспределительные станции, объекты тепло-, энерго- и водоснабжения, связи, метрологии, автоматики. В настоящее время в компании работает более 1337 сотрудников.",
+            "header_text_01": "Сегодня ООО Промгаз добыча Марс» — динамично развивающееся газотранспортное предприятие, стратегия которого направлена на обеспечение энергетической стабильности Солнечной системы, а также четкое выполнение контрактных обязательств компании по поставкам газа на экспорт. Ежегодно компания транспортирует свыше 150 млрд кубометров природного газа. Поставки топлива осуществляются с высокой степенью надежности в соответствии с контрактными условиями. В нашу зону ответственности входят более 12 тыс. км газопроводов, 33 компрессорных цеха со 197 газоперекачивающими агрегатами суммарной мощностью 1883 МВт, 252 газораспределительные станции, объекты тепло-, энерго- и водоснабжения, связи, метрологии, автоматики. В настоящее время в компании работает более 1337 сотрудников.",
             "header_02": "Внимание!",
             "header_text_02": "Мы недавно провели аудит нашего сайта, и аудиторы обнаружили ряд серьезных уязвимостей, поэтому действуйте очень осторожно. Помните, что неправомерный доступ к компьютерной информации или нарушение правил эксплуатации средств хранения, обработки или передачи компьютерной информации преследуется по закону!"
         },
@@ -153,7 +153,7 @@
             "header_text_02": "На самом деле, функции поиска, судя по всему, вообще не работает. Однако, мы спрятали несколько пасхалок и найти их можно с помощью поиска. Найти с помощью поиска, игра слов."
         },
         "interface": {
-            "sitetitle": "ООО «Газпром добыча Марс»",
+            "sitetitle": "ООО Промгаз добыча Марс»",
             "searchfield": "Поиск по сайту",
             "searchbutton": "Поиск",
             "loggedin": "Вы вошли как ",
@@ -173,7 +173,7 @@
         "main": {
             "title": "Home Page",
             "header_01": "Welcome to Mars!",
-            "header_text_01": "Today, Gazprom Dobycha Mars, LLC, is a dynamically developing gas transportation company whose strategy is aimed at ensuring the energy stability of the Solar system as well as the strict fulfillment of a company's contractual obligations for gas supplies for export. The company annually transports over 150 billion cubic meters of natural gas. Fuel supplies are carried out with a high degree of reliability in accordance with contractual terms. Our responsibility area includes more than 12,000 km of gas pipelines, 33 compressor shops with 197 gas pumping units with a total capacity of 1,883 MW, 252 gas distribution stations, facilities for heat, power and water supply, communications, metrology, and automation. Currently, the company has more than 1337 employees.",
+            "header_text_01": "Today, Promgaz Dobycha Mars, LLC, is a dynamically developing gas transportation company whose strategy is aimed at ensuring the energy stability of the Solar system as well as the strict fulfillment of a company's contractual obligations for gas supplies for export. The company annually transports over 150 billion cubic meters of natural gas. Fuel supplies are carried out with a high degree of reliability in accordance with contractual terms. Our responsibility area includes more than 12,000 km of gas pipelines, 33 compressor shops with 197 gas pumping units with a total capacity of 1,883 MW, 252 gas distribution stations, facilities for heat, power and water supply, communications, metrology, and automation. Currently, the company has more than 1337 employees.",
             "header_02": "Attention!",
             "header_text_02": "We recently audited our site, and the auditors found a number of serious vulnerabilities, so please proceed very carefully. Remember that illegal access to computer information or violation of the rules for the operation of storage, processing or transmission of computer information is punishable by law."
         },
@@ -323,7 +323,7 @@
             "header_text_02": "Actually, the search function doesn't seem to work at all. However, we have hidden a few Easter eggs and you can search them using the search. Search using search, pun."
         },
         "interface": {
-            "sitetitle": "Gazprom Dobycha Mars, LLC»",
+            "sitetitle": "Promgaz Dobycha Mars, LLC»",
             "searchfield": "Site search",
             "searchbutton": "Search",
             "loggedin": "You are logged in as ",
