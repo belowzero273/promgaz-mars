@@ -39,7 +39,7 @@ router.post("/guestbook", function (req, res) {
   let newPost = req.body.record;
   const checkXSS = /.*<script>alert\(.*\)<\/script>.*/.test(newPost);       // check newPost string if it maches typical XSS pattern
 
-  const sql_request_insert = `INSERT INTO	gazprom_mars.guestbook VALUES ("${newName}", "${newPost}")`;
+  const sql_request_insert = `INSERT INTO gazprom_mars.guestbook VALUES ('${newName}', '${newPost}')`;
   const sql_request_select = "SELECT * FROM gazprom_mars.guestbook";
 
   var con = mysql.createConnection({

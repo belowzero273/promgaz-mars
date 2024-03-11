@@ -39,7 +39,7 @@ Start with NodeJS:
 ```bash
 apt-get update 
 apt-get install -y curl gpg gnupg wget
-curl -fsSL https://deb.nodesource.com/setup_18.x | bash
+url -fsSL https://deb.nodesource.com/setup_18.x | bash
 apt-get install -y nodejs
 ```
 Then install MongoDB:
